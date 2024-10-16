@@ -7,8 +7,18 @@ function App() {
   const [list, setList] = useState({});
   const [filteredResults, setFilteredResults] = useState([]);
   const [searchItem, setSearchItem] = useState("");
-  const searchItems = (searchValue) => {
-  set
+  const searchItems = searchValue => {
+  setSearchInput(searchValue);
+  if (searchValue !== ""){
+    const filteredData = Object.keys(list.Data).filter((item) =>
+      Object.values(item).join("").toLowerCase().includes(searchValue.toLowerCase())
+  
+  )
+  setFilteredResults(filteredData);
+  } else {
+
+    setFilteredResults(Object.keys(list.Data));
+    }
   };
   useEffect(() => {
     const fetchAllCoinData = async () => {
