@@ -40,3 +40,49 @@
 .read-the-docs {
   color: #888;
 }
+body {
+  background: black;
+}
+
+.icons {
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 25px 50px 75px 30px;
+}
+
+li.main-list {
+  padding: 25px;
+  border-bottom: solid 3px white;
+  font-size: larger;
+}
+
+.whole-page {
+  padding: 50px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+.tab {
+  display: inline-block;
+  margin-left: 75px;
+}
+.search-bar {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.search-bar:focus {
+  border-color: #646cff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(100, 108, 255, 0.5);
+}

@@ -44,8 +44,10 @@ function App() {
   return (
     <>
       <div className="whole-page">
-        <h1>My Crypto List</h1>
+        <h1>Crypto Broski</h1>
+        <h3>Track the latest prices and trends in the crypto world!</h3>
         <input
+        className="search-bar"
           type="text"
           placeholder="Search.."
           value={searchInput}
