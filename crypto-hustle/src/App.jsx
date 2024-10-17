@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import CoinInfo from "./components/CoinInfo";
+import SideNav from "./components/SideNav";
 const API_KEY = import.meta.env.VITE_APP_API_KEY;
 
 function App() {
@@ -78,6 +79,7 @@ function App() {
               )}
         </ul>
       </div>
+      <SideNav  />
     </>
   );
 }
