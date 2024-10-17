@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/03798951-33e9-48c4-bb1a-d50dd5f2d7dc/deploy-status)](https://app.netlify.com/sites/glittery-moxie-4824a2/deploys)
 # Crypto Hustle
 
 Crypto Hustle is a web application that allows users to look up the latest cryptocurrency prices in USD. This application is built using the CryptoCompare API to provide real-time data.
